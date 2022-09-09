@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Table de multiplication</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="java.js" async></script>
+	</head>
+<body>
+	<header>
+		
+		
+		<div class="title">
+			
+			<p>TABLES DE MULTIPLICATION<span class="Olivier">by Olivier</span></p>
+		</div>
+		
+	
+		<nav>
+		<div class="bc">
+			<ul>
+				<a class="fiv" href="#index.html"><li>ACCUEIL</li></a>
+				<a class="fiv" href="propos.html" onclick="#propos"><li>A PROPOS</li></a>
+			</ul>
+		</div>
+		</nav>
+	</header>
+	<section id="commande">
+		<div class="box">
+			<div class="type">
+			<label for="table" id="tb">Table :</label>
+			<input type="number" id="table" placeholder="inserez un chiffre à multiple" required>
+			</div>
+			<div class="type">
+			<label for="until" id="jus">Jusqu'à :</label>
+			<input type="number" id="until">
+			</div>
+		<div>
+				<input type="image" src="images/check.png" onclick="Lance()" id="Lance" />
+			</div>
+			
+
+		</div>
+	</section>
+	
+	<section id="result">
+		<div>
+			<p class="ito" id="p0"></p>
+		</div>		
+		<div class="sol">			
+			<p id="p1"></p>
+		</div>
+		
+	</section>
+	<section id="cle">
+		<div id="clear">
+			<button id="re">Clear</button>
+		</div>
+	</section>
+	
+</body>
+</html>

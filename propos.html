@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<title>Table de multiplication</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="style.css">
+	<script src="java.js" async></script>
+	<script type="text/javascript">
+		function changeText() {
+		z = document.getElementById('feno').value,
+		
+		lang = function(){
+			   			document.getElementById('myDiv').innerHTML = 'Ity dia fitaovana iray natao hanampy ny ankizy hampiasa ny "Table de multiplication",';
+			 			document.getElementById('nof').innerHTML = "Noforonina tamin'ny Aogositra 2022";
+						document.getElementById('mpamorona').innerHTML = "<u>Mpamorona :</u><br><strong>© Olivier 2021</strong>"}
+		
+		
+		langF = function(){
+			   			document.getElementById('myDiv').innerHTML = 'Ceci est un programme conçu pour aider les Elèves de CM1 ou CM2 à utiliser des table de multiplication",';
+			 			document.getElementById('nof').innerHTML = "Date de création : Aout 2022";
+						document.getElementById('mpamorona').innerHTML = "<u>Créateur :</u><br><strong>© Olivier 2021</strong>"}
+				
+		if(z == 'Malagasy'){
+			 lang();
+			 document.getElementById('feno').value = 'Français'}
+		else{
+			 langF();
+			 document.getElementById('feno').value = 'Malagasy'}
+		
+		
+	}
+</script>
+	</head>
+<body>	
+	
+	<header>
+		
+		
+		<div class="title">
+			
+			<p>TABLES DE MULTIPLICATION<span class="Olivier">by Olivier</span></p>
+		</div>
+		
+	
+		<nav>
+		<div class="bc">
+			<ul>
+				<a href="index.html"><li>ACCUEIL</li></a>
+				<a href="propos.html" onclick="#propos"><li>A PROPOS</li></a>
+			</ul>
+		</div>
+		</nav>
+	</header>
+	
+	
+	<section>
+		<div class="propos">
+			<p id="myDiv">Ceci est un programme conçu pour aider les elèves de CM1 ou CM2 à  utiliser des table de multiplication,</p>
+			<p class="tt"><a class="tt" href="images\tutoriel.html">Tutoriel</a></p>
+			<p id="nof">Date de création: Novembre 2021</p>
+			<p class="droit" id="mpamorona"><u>Créateur :</u><br><strong>© Olivier 2021</strong></p>
+							<p class="tt"><a class="tt" href="mailto:fenoolivieras@gmail.com">fenolivieras@gmail.com</a><br><br>
+				+261 34 56 013 24</p>
+			</p>
+		</div>
+		<div class="langu">
+		<input class="teboka" type="button" id="feno" value="Malagasy" onclick=changeText() />
+	</div>	
+	</section>
+</body></html>

@@ -1,0 +1,317 @@
+
+/*IRETO NY RESAKA FONT*/
+
+@font-face {
+	font-family: 'Magical';
+	font-weight:normal;
+	font-style:normal;
+	src: url(font/Magical.ttf)		
+}
+
+@font-face {
+	font-family: 'Days';
+	font-weight:normal;
+	font-style:normal;
+	src: url(font/Days.ttf)		
+}
+
+@font-face {
+	font-family: 'Lett';
+	font-weight:normal;
+	font-style:normal;
+	src: url(font/Letticia.ttf)		
+}
+
+@font-face {
+	font-family: 'Make';
+	font-weight:normal;
+	font-style:normal;
+	src: url(font/Make.otf)		
+}
+
+@font-face {
+	font-family: 'Blank';
+	font-weight:normal;
+	font-style:normal;
+	src: url(font/Blank.ttf)		
+}
+
+/*GENERAL*/
+
+
+
+body {
+    background-image: url("images/blackboard.jpg");
+	background-repeat: no-repeat;
+	background-position: center;		
+}
+
+body.tut{
+    background-color: #fce0e0;
+}
+
+/*HEADER*/
+
+.title {
+    border: none;    
+    margin: 0 auto;    
+    height: 100px;
+    
+}
+
+.title p {       /*Table des multiplication*/
+	font-family: 'Days';
+    color: aqua;
+    font-weight: normal;
+    font-style:normal;
+    font-size: 275%;
+    padding-top: 30px;	
+	padding-bottom: 30px;
+    text-align: center;
+    margin: 0;
+	background: linear-gradient(to top, black, silver);
+	border-radius: 5px;
+}
+
+span.Olivier {
+	font-family: 'Magical';
+	font-size: 30%;
+font-weight:normal;
+color: #FF866A; 
+margin-top: 0;
+display:block;	
+}
+
+
+img.math { /*Ity ilay sary eo @ titre*/
+	width:100%;
+	height: 100%;
+}
+
+header nav{
+    text-align: center;
+    display: block;
+    width: 100%;
+    margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+header ul {    
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    text-align: center;
+    display: block;    
+}
+
+header li {
+	font-family: 'Lett';
+    font-size: 200%;
+    list-style-type: none;
+    display: inline-block;    
+    margin: 0 5px;
+    text-align: center;
+    float: left;
+    width: 45%;
+    background: linear-gradient(to bottom, ivory, grey); 
+    border-radius: 15px;
+		
+}
+
+header li:hover{
+    border-bottom: 10px solid cyan;
+	border-right: 2px solid cyan;
+	border-left: 2px solid cyan;
+}
+
+a.fiv:visited {color:Charcoal }
+
+
+header ul a{
+    color: Charcoal;
+    text-decoration: none;
+    font-weight: bold;
+   
+    
+}
+
+.bc {
+    margin: 10px auto;
+}
+
+
+/*COMMANDE*/
+
+#commande {
+    margin: 20px auto;
+}
+
+.box {display: block;
+    clear: both;
+    margin: 10px auto;
+    text-align: center;
+    border: 3px solid orange;
+    width: 65%;
+    padding: 10px;
+    background: linear-gradient(to right, ivory, salmon); ;   
+    box-shadow: 0px 0px 100px indianred;    
+}
+
+a.tt  {color:blue;
+text-decoration:underline; 
+    background: linear-gradient(to right, gray, brown); 
+    padding: 3px;
+    border-radius:5px;
+}
+
+a.tt:hover {
+color: green;
+background:gray;
+font-weight:bold; }
+
+
+#tb {
+	font-family: 'Make';
+	font-size: 149%;
+}
+
+#jus {
+	font-family: 'Make';
+	font-size: 149%;
+}
+
+#Lance {
+	width: 10%;
+	margin-top: 15px;
+}
+
+#Lance:hover {
+	background-color: Lime;
+}
+
+.langu {text-align:center;
+margin: 0 auto }
+
+.teboka {text-align:center;
+        margin: 3em auto;
+        clear:both }
+
+.teboka:hover {border:2px solid brown}
+        
+span.Red {
+	color: red;
+}
+
+.type {
+    display: block;
+    margin: 15px 0 0 0;
+}
+
+
+/*PROPOS*/
+
+.copy {
+    border: 2px solid greenyellow
+}
+
+.propos p{
+    text-align: center;
+    color: #FDFFE8;
+    }
+
+input {
+    border: thin solid gray;
+    transition-property: border;
+    transition-duration: 200ms;
+}
+
+input:hover{
+    border: 2px solid green;    
+}
+
+.droit {
+    font-size: 117%
+}
+
+/*RESULTAT*/
+
+#result {
+    height: 300px;
+    display: block;
+    clear: both;
+}
+
+.sol { /*div mirakitra ilay table*/
+    display: block;
+    clear: both;
+    margin: 10px auto;
+   position: absolute;
+   left: 45%;
+   padding: 2px;
+}
+
+#p0 {font-family: 'Blank';
+    text-align: center;
+    font-weight: normal;
+    font-size: 185%;    
+    display: block;
+    clear: both;
+	color: white;
+	line-height:1;
+	margin-bottom:0;
+}
+
+/*TUTORIEL*/
+
+.tuto0 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 133%;
+	color: white;
+}
+
+.lalana {
+	color: white;
+}
+
+img {
+    display: block;
+    text-align: center;
+}
+
+.fig {
+    text-align: center;
+    margin: auto;
+}
+
+/*CLEAR*/
+
+
+#cle {
+    clear: both;
+    display: block;
+}
+
+#clear {
+    margin: 10px 2px;
+     display: block;
+    clear: both;
+    text-align: left;
+}
+
+#clear button {
+    background-color: rgb(241, 46, 46);
+    display: none;
+    clear: both;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+#clear button:hover {
+    background-color: red;
+}
